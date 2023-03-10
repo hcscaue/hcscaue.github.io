@@ -24,13 +24,13 @@ export const Introduction = () => {
         </div>
         <img
           className="assign"
-          src="src/assets/photos/assign.png"
+          src="static/photos/assign.png"
           alt="Assinatura"
         />
         <div className="social">
-          <img src="src/assets/icons/instagram.svg" alt="Instagram" />
-          <img src="src/assets/icons/linkedin.svg" alt="Linkedin" />
-          <img src="src/assets/icons/github.svg" alt="Github" />
+          <img src="static/icons/instagram.svg" alt="Instagram" />
+          <img src="static/icons/linkedin.svg" alt="Linkedin" />
+          <img src="static/icons/github.svg" alt="Github" />
         </div>
       </div>
     </styled.Container>
