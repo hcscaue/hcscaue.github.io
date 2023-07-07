@@ -1,0 +1,27 @@
+section:not(:first-of-type) {
+	margin-top: 24px;
+}
+
+section {
+	position: relative;
+}
+
+section .section-title {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: translateY(-50%) rotate(-180deg);
+	margin-left: 24px;
+
+	font-weight: 700;
+	font-size: 0.8rem;
+
+	writing-mode: vertical-lr;
+	text-transform: uppercase;
+
+	color: white;
+}
+
+section .section-title.black {
+	color: black;
+}

@@ -1,12 +1,13 @@
 import { styled } from "@stitches/react";
 import { defaultTheme } from "../../global/theme.ts";
 
-export const Container = styled("div", {
+export const Container = styled("header", {
 	position: "fixed",
-	width: "100vw",
+	width: "100%",
+	height: "80px",
 	top: 0,
 	left: 0,
-	padding: "24px",
+	padding: "0 24px",
 	zIndex: 100,
 	display: "flex",
 	justifyContent: "space-between",

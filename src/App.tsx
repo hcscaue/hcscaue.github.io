@@ -1,4 +1,5 @@
 import "./App.css";
+import "./styles/portfolio.css";
 import {
 	createBrowserRouter,
 	RouterProvider,
@@ -24,7 +25,7 @@ export const App = () => {
 	return (
 		<>
 			<Header />
-			<RouterProvider router={router} />;
+			<RouterProvider router={router} />
 		</>
 	);
 };
