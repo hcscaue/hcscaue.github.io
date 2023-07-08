@@ -1,6 +1,6 @@
 import { Container } from "./styled";
 
-const Banner = () => {
+const BannerSection = () => {
 	return (
 		<Container>
 			<img
@@ -21,4 +21,4 @@ const Banner = () => {
 	);
 };
 
-export default Banner;
+export default BannerSection;

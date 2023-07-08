@@ -1,6 +1,6 @@
 import { Container } from "./styled";
 
-const Presentation = () => {
+const PresentationSection = () => {
 	return (
 		<Container>
 			<img
@@ -34,4 +34,4 @@ const Presentation = () => {
 	);
 };
 
-export default Presentation;
+export default PresentationSection;
