@@ -5,7 +5,7 @@ const Banner = () => {
 		<Container>
 			<img
 				className="banner-image"
-				src="/src/assets/images/Banner.png"
+				src="./assets/images/Banner.png"
 				alt="Foto de apresentação"
 			/>
 			<div className="banner-text">

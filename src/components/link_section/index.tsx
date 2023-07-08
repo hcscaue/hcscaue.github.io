@@ -13,7 +13,7 @@ const LinkSection = () => {
 							<footer>
 								<p className="link-type">{link.type}</p>
 								<div>
-									<img src="src/assets/icons/link.svg" alt="Acesse o link" />
+									<img src="./assets/icons/link.svg" alt="Acesse o link" />
 									<p>Acessar</p>
 								</div>
 							</footer>
