@@ -1,6 +1,6 @@
 import { Container } from "./styled";
 
-const About = () => {
+const AboutSection = () => {
 	return (
 		<Container>
 			<div className="about-text-group">
@@ -30,4 +30,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default AboutSection;

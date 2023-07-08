@@ -1,11 +1,11 @@
 import LinkSection from "../../components/link_section";
-import Presentation from "../../components/presentation";
+import PresentationSection from "../../components/presentation_section";
 import { Container } from "./styled";
 
 const LinksPage = () => {
 	return (
 		<Container>
-			<Presentation />
+			<PresentationSection />
 			<LinkSection />
 		</Container>
 	);

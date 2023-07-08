@@ -1,11 +1,13 @@
-import About from "../../components/about";
-import Banner from "../../components/banner";
+import AboutSection from "../../components/about_section";
+import BannerSection from "../../components/banner_section";
+import SkillsetSection from "../../components/skillset_section";
 
 const HomePage = () => {
 	return (
 		<>
-			<Banner />
-			<About />
+			<BannerSection />
+			<AboutSection />
+			<SkillsetSection />
 		</>
 	);
 };
