@@ -1,7 +1,7 @@
 import About from "../../components/about";
 import Banner from "../../components/banner";
 
-const Home = () => {
+const HomePage = () => {
 	return (
 		<>
 			<Banner />
@@ -10,4 +10,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default HomePage;

@@ -2,7 +2,7 @@ import LinkSection from "../../components/link_section";
 import Presentation from "../../components/presentation";
 import { Container } from "./styled";
 
-const Links = () => {
+const LinksPage = () => {
 	return (
 		<Container>
 			<Presentation />
@@ -11,4 +11,4 @@ const Links = () => {
 	);
 };
 
-export default Links;
+export default LinksPage;
