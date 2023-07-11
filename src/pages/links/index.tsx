@@ -1,5 +1,5 @@
-import LinkSection from "../../components/link_section";
-import PresentationSection from "../../components/presentation_section";
+import LinkSection from "../../components/sections/link_section";
+import PresentationSection from "../../components/sections/presentation_section";
 import { Container } from "./styled";
 
 const LinksPage = () => {

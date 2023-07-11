@@ -24,14 +24,4 @@ export const Container = styled("header", {
 		alignItems: "center",
 		gap: "8px",
 	},
-
-	"& > .social-group > a": {
-		width: "24px",
-		opacity: 0.5,
-		transition: "all 0.3s ease-in-out",
-	},
-
-	"& > .social-group > a:hover": {
-		opacity: 1,
-	},
 });

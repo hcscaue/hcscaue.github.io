@@ -1,4 +1,4 @@
-export const links = [
+export const linksData = [
 	{
 		type: "Programação",
 		title: "Cordel recebe o British Council",

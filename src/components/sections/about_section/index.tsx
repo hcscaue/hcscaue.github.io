@@ -1,3 +1,4 @@
+import SectionLabel from "../../section_label";
 import { Container } from "./styled";
 
 const AboutSection = () => {
@@ -25,7 +26,7 @@ const AboutSection = () => {
 					oportunidades de aprendizado e crescimento.
 				</p>
 			</div>
-			<p className="section-title black">Sobre mim</p>
+			<SectionLabel label="SOBRE MIM" color="black" />
 		</Container>
 	);
 };
