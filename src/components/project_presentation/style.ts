@@ -32,7 +32,6 @@ export const Container = styled("div", {
 
 		a: {
 			color: defaultTheme.colors.black,
-			marginTop: "32px",
 			opacity: "0.8",
 			fontWeight: "800",
 			textDecoration: "none",

@@ -12,8 +12,11 @@ export const Container = styled("section", {
 	alignItems: "center",
 	gap: "32px",
 
-	"& .title-section": {
+	"& .title-section, & .all-projects-text a": {
 		textTransform: "uppercase",
+		fontWeight: "800",
+		fontSize: "1.6rem",
+		color: defaultTheme.colors.black,
 	},
 
 	"& .main-projects": {
@@ -35,6 +38,14 @@ export const Container = styled("section", {
 
 		".project-texts": {
 			textAlign: "right",
+		},
+
+		"& .techs-list": {
+			justifyContent: "flex-end",
+		},
+
+		"& .text-underline": {
+			float: "right",
 		},
 	},
 });
