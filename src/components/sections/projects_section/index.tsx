@@ -1,7 +1,7 @@
 import { projectsData } from "../../../data/data-projects";
 import ProjectPresentation from "../../project_presentation";
 import SectionLabel from "../../section_label";
-import TextUnderline from "../../text_underline";
+// import TextUnderline from "../../text_underline";
 import { Container } from "./style";
 
 const ProjectSection = () => {
@@ -19,12 +19,11 @@ const ProjectSection = () => {
 					/>
 				))}
 			</div>
-			<TextUnderline
+			{/* <TextUnderline
 				className="all-projects-text"
 				text="Visualizar todos os projetos"
 				asLink
-				heightUnderline="4px"
-			/>
+			/> */}
 			<SectionLabel label="PROJETOS" color="black" />
 		</Container>
 	);

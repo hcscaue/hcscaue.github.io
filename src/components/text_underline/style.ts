@@ -16,14 +16,16 @@ export const Container = styled("div", {
 		"a:hover": {
 			opacity: "1",
 
-			"& .underline-feedback": {
-				display: "none",
+			"& img": {
+				opacity: "1",
 			},
 		},
 
 		img: {
+			opacity: "0.8",
 			aspectRatio: "1/1",
 			width: "1em",
+			transition: "all 0.2s ease-in-out",
 		},
 	},
 
@@ -35,15 +37,5 @@ export const Container = styled("div", {
 
 	":hover + .underline": {
 		width: "100%",
-	},
-
-	"& .underline-feedback": {
-		width: "100%",
-		opacity: "0.8",
-		transition: "all 0.2s ease-in-out",
-	},
-
-	"& .underline-group": {
-		position: "relative",
 	},
 });
