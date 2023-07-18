@@ -18,10 +18,4 @@ export const Container = styled("header", {
 		width: "40px",
 		aspectRatio: "1/1",
 	},
-
-	"& > .social-group": {
-		display: "flex",
-		alignItems: "center",
-		gap: "8px",
-	},
 });

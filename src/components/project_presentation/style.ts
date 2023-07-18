@@ -35,7 +35,7 @@ export const Container = styled("div", {
 			opacity: "0.8",
 			fontWeight: "800",
 			textDecoration: "none",
-			transition: "all 0.2s ease-in-out",
+			transition: defaultTheme.transitions.default,
 		},
 
 		"a:hover": {
