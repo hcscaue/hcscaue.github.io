@@ -1,3 +1,4 @@
+import SectionLabel from "../../section_label";
 import { Container } from "./styled";
 
 const SkillsetSection = () => {
@@ -38,7 +39,7 @@ const SkillsetSection = () => {
 					</p>
 				</div>
 			</div>
-			<p className="section-title white">PONTOS FORTES</p>
+			<SectionLabel label="PONTOS FORTES" color="white" />
 		</Container>
 	);
 };

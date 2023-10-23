@@ -1,10 +1,10 @@
-import { links } from "../../data/links-presentation.js";
+import { linksData } from "../../../data/data-links.ts";
 import { Container } from "./styled.ts";
 
 const LinkSection = () => {
 	return (
 		<Container>
-			{links.map((link) => {
+			{linksData.map((link) => {
 				return (
 					<a className="link-url" href={link.url} target="_blank">
 						<div className="link-container">

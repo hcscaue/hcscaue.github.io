@@ -12,5 +12,9 @@ export const defaultTheme = createStitches({
 			"gray-medium-dark": "#999",
 			"gray-dark": "#666",
 		},
+
+		transitions: {
+			default: "all 0.2s ease-in-out",
+		},
 	},
 }).theme;

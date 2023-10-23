@@ -1,5 +1,5 @@
 import { styled } from "@stitches/react";
-import { defaultTheme } from "../../global/theme";
+import { defaultTheme } from "../../../global/theme";
 
 export const Container = styled("section", {
 	display: "flex",

@@ -44,21 +44,4 @@ export const Container = styled("section", {
 		display: "flex",
 		gap: "8px",
 	},
-
-	"& div#social-media a": {
-		width: "24px",
-		height: "24px",
-	},
-
-	"& div#social-media a img": {
-		width: "100%",
-		height: "100%",
-
-		opacity: "0.7",
-		transition: "all 0.2s ease-in",
-	},
-
-	"& div#social-media a img:hover": {
-		opacity: "1",
-	},
 });
