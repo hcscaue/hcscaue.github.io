@@ -8,8 +8,12 @@ export const Container = styled("section", {
 	padding: "16px 64px",
 	gap: "32px",
 
+	width: "100%",
+	height: "100vh",
+
 	"& > .about-text-group": {
 		width: "50%",
+		minWidth: "560px",
 		maxWidth: "720px",
 		textAlign: "left",
 	},

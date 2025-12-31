@@ -6,7 +6,10 @@ export const Container = styled("footer", {
 
 	display: "flex",
 	flexDirection: "column",
-	padding: "64px 88px",
+	justifyContent: "center",
+
+	width: "100%",
+	height: "100vh",
 
 	"& .cta-group": {
 		width: "100%",
@@ -39,5 +42,22 @@ export const Container = styled("footer", {
 		"& span": {
 			color: "goldenrod",
 		},
+	},
+
+	"& .cta-button": {
+		color: defaultTheme.colors.black,
+		backgroundColor: defaultTheme.colors.white,
+
+		fontSize: "1.4rem",
+		fontWeight: "800",
+		textTransform: "uppercase",
+	
+		padding: "0px 8px",
+
+		cursor: "pointer",
+
+		"&:hover": {
+			opacity: ".8"
+		}
 	},
 });

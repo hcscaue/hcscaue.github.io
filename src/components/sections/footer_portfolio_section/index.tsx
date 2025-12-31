@@ -12,9 +12,12 @@ const FooterPortfolioSection = () => {
 				/>
 				<div>
 					<p className="cta-group-text">
-						Gostou? Entre em <span>contato comigo</span> e vamos conversar sobre
-						o <span>seu projeto</span>!
+						Gostou? Entre em <span>contato comigo</span> e vamos conversar!
 					</p>
+					<a onClick={() => null} className="cta-button">
+						Baixar Currículo
+					</a>
+					<div style={{ height: 8 }} />
 					<SocialGroup github={false} />
 				</div>
 			</div>

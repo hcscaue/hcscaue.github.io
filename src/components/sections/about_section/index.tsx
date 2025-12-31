@@ -6,24 +6,26 @@ const AboutSection = () => {
 		<Container>
 			<div className="about-text-group">
 				<h1>
-					Desenvolver experiências envolventes através de <br />
-					<span>jogos e ludicidade</span>.
+					Engenheiro de Software focado em produtos escaláveis e soluções com
+					GenAI.
 				</h1>
 				<p>
-					Sou um desenvolvedor de jogos digitais, aplicativos móveis e front-end
-					apaixonado por criar soluções tecnológicas que visam melhorar o
-					desempenho e engajamento durante o momento de aprendizado. Tenho
-					experiência como Coordenador no Cordel Labs, onde lidero a parte
-					técnica da empresa e desenvolvo projetos disruptivos focados no
-					aprendizado e ludicidade.
+					Engenheiro de Software Fullstack com mais de 5 anos de experiência no
+					ciclo completo de desenvolvimento (End-to-End), com forte
+					especialização em Front-End, interfaces interativas e arquitetura de
+					componentes. Minha atuação técnica é abrangente, combinando o
+					desenvolvimento de interfaces com experiência prática em Backend
+					(Node.js, NestJS, PostgreSQL), infraestrutura (Docker) e vivência em
+					esteiras de CI/CD.
 					<br />
 					<br />
-					Além disso, sou estudante de Ciência da Computação na UFRPE e concluí
-					o meu ensino médio em escola técnica de Desenvolvimento de Jogos
-					Digitais. Desde o ensino médio, tenho participado de uma empresa
-					criada com alguns colegas da escola, aprimorando minhas competências
-					empreendedoras, técnicas e de liderança, buscando constantemente novas
-					oportunidades de aprendizado e crescimento.
+					Tenho histórico comprovado na entrega de produtos digitais escaláveis
+					que impactam milhares de usuários, atuando desde a concepção da
+					arquitetura até o deploy automatizado. Atualmente focado em Engenharia
+					de IA (GenAI), busco aplicar conhecimentos em integração de APIs de
+					LLMs e automação para criar soluções inovadoras na Accenture. Possuo
+					vivência sólida em metodologias ágeis (Scrum), colaboração em times
+					multidisciplinares e boas práticas de engenharia de software.
 				</p>
 			</div>
 			<SectionLabel label="SOBRE MIM" color="black" />

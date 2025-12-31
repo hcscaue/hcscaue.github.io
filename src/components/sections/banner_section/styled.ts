@@ -2,7 +2,7 @@ import { styled } from "@stitches/react";
 
 export const Container = styled("section", {
 	width: "100%",
-	height: "100vh",
+	height: "100%",
 
 	"& > img": {
 		width: "100%",
