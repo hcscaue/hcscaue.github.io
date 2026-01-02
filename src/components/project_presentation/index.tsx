@@ -14,7 +14,6 @@ const ProjectPresentation = ({
 	description,
 	techs,
 	banner,
-	url,
 }: PropsType) => {
 	return (
 		<Container className="project-presentation">
