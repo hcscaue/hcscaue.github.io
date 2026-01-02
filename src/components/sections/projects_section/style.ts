@@ -2,6 +2,8 @@ import { styled } from "@stitches/react";
 import { defaultTheme } from "../../../global/theme";
 
 export const Container = styled("section", {
+	width: "100%",
+	height: "100%",
 	backgroundColor: defaultTheme.colors.white,
 
 	display: "flex",
@@ -19,33 +21,37 @@ export const Container = styled("section", {
 		color: defaultTheme.colors.black,
 	},
 
-	"& .main-projects": {
-		display: "flex",
-		flexDirection: "column",
-		gap: "64px",
-	},
-
-	".project-presentation:nth-child(2n + 1) ": {
-		flexDirection: "row",
-
-		"& .techs-list": {
-			justifyContent: "flex-start",
+	variants: {
+		align: {
+			left: {
+				"& .project-presentation": {
+					flexDirection: "row",
+				},
+				"& .techs-list": {
+					justifyContent: "flex-start",
+				},
+				"& .project-texts": {
+					textAlign: "left",
+				},
+			},
+			right: {
+				"& .project-presentation": {
+					flexDirection: "row-reverse",
+				},
+				"& .project-texts": {
+					textAlign: "right",
+				},
+				"& .techs-list": {
+					justifyContent: "flex-end",
+				},
+				"& .text-underline": {
+					float: "right",
+				},
+			},
 		},
 	},
 
-	".project-presentation:nth-child(2n) ": {
-		flexDirection: "row-reverse",
-
-		".project-texts": {
-			textAlign: "right",
-		},
-
-		"& .techs-list": {
-			justifyContent: "flex-end",
-		},
-
-		"& .text-underline": {
-			float: "right",
-		},
+	defaultVariants: {
+		align: "left",
 	},
 });

@@ -2,6 +2,7 @@ import { styled } from "@stitches/react";
 
 export const MainContainer = styled("div", {
     width: "100%",
+    // paddingTop: "80px",
     overflow: "hidden", 
     position: "relative",
 });
@@ -13,10 +14,9 @@ export const SliderWrapper = styled("div", {
 });
 
 export const Section = styled("div", {
-    height: "100vh",
+    height: "100dvh",
     width: "100%",
     
-    paddingTop: "80px",     
     boxSizing: "border-box",
     
     display: "flex",

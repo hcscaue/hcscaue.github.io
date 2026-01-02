@@ -3,6 +3,9 @@ import AboutSection from "../../components/sections/about_section";
 import BannerSection from "../../components/sections/banner_section";
 import FooterPortfolioSection from "../../components/sections/footer_portfolio_section";
 import { MainContainer, SliderWrapper, Section } from "./style";
+import SkillsetSection from "../../components/sections/skillset_section";
+import ProjectSection from "../../components/sections/projects_section";
+import { projectsData } from "../../data/data-projects";
 
 const HomePage = () => {
 	const [activeIndex, setActiveIndex] = useState(0);
@@ -11,8 +14,10 @@ const HomePage = () => {
 	const sections = [
 		<BannerSection />,
 		<AboutSection />,
-		// <SkillsetSection />,
-		// <ProjectSection />,
+		<ProjectSection project={projectsData[0]} />,
+		<ProjectSection project={projectsData[1]} align={"right"} />,
+		<ProjectSection project={projectsData[2]} />,
+		<SkillsetSection />,
 		<FooterPortfolioSection />,
 	];
 

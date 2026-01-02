@@ -51,6 +51,7 @@ export const Container = styled("footer", {
 		fontSize: "1.4rem",
 		fontWeight: "800",
 		textTransform: "uppercase",
+		textDecoration: "none",
 	
 		padding: "0px 8px",
 

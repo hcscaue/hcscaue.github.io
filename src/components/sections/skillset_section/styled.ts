@@ -2,8 +2,11 @@ import { styled } from "@stitches/react";
 import { defaultTheme } from "../../../global/theme";
 
 export const Container = styled("section", {
+	height: "100%",
+width: "100%",
+
 	display: "flex",
-	backgroundColor: defaultTheme.colors.black,
+	backgroundColor: defaultTheme.colors.white,
 
 	padding: "64px 88px",
 	flexDirection: "column",
@@ -12,25 +15,23 @@ export const Container = styled("section", {
 	alignItems: "center",
 
 	"& #group-skillset": {
-		width: "100%",
-
 		display: "grid",
 		gap: "32px",
-		gridTemplateColumns: "1fr 1fr 1fr 1fr",
+		gridTemplateColumns: "1fr 1fr",
 
 		justifyContent: "center",
 		alignItems: "start",
 	},
 
 	"& #group-skillset .skill": {
-		color: defaultTheme.colors.white,
+		color: defaultTheme.colors.black,
 		maxWidth: "480px",
 		textAlign: "center",
 	},
 
 	"& #group-skillset .skill img": {
-		width: "20%",
-		maxWidth: "96px",
+		width: "10%",
+		maxWidth: "48px",
 	},
 
 	"& #group-skillset .skill h2": {

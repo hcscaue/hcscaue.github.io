@@ -14,7 +14,10 @@ const FooterPortfolioSection = () => {
 					<p className="cta-group-text">
 						Gostou? Entre em <span>contato comigo</span> e vamos conversar!
 					</p>
-					<a onClick={() => null} className="cta-button">
+					<a
+						href="/profile.pdf"
+						download="Currículo - Cauê Henrique.pdf"
+						className="cta-button">
 						Baixar Currículo
 					</a>
 					<div style={{ height: 8 }} />

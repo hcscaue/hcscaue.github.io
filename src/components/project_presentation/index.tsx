@@ -1,5 +1,4 @@
 import TechsList from "../techs_list";
-import TextUnderline from "../text_underline";
 import { Container } from "./style";
 
 type PropsType = {
@@ -24,7 +23,7 @@ const ProjectPresentation = ({
 				<h1>{title}</h1>
 				<TechsList techs={techs} />
 				<p>{description}</p>
-				<TextUnderline text="ver mais informações" href={url} asLink />
+				{/* <TextUnderline text="ver mais informações" href={url} asLink /> */}
 			</div>
 		</Container>
 	);

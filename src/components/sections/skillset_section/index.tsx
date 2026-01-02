@@ -6,40 +6,43 @@ const SkillsetSection = () => {
 		<Container>
 			<div id="group-skillset">
 				<div className="skill">
-					<img src="./assets/icons/code-white.svg" alt="Github" />
-					<h2>Desenvolvimento</h2>
+					<img src="./assets/icons/code-black.svg" alt="Development" />
+					<h2>Fullstack & Arquitetura</h2>
 					<p>
-						Desenvolvimento de Jogos, Aplicativos e Plataformas inovadoras com
-						ludicidade. Proporcionando uma experiência engajadora e criativa.
+						Desenvolvimento de aplicações escaláveis de ponta a ponta
+						(End-to-End) utilizando React, Node.js e PostgreSQL, com foco em
+						código limpo e performance.
 					</p>
 				</div>
+
 				<div className="skill">
-					<img src="./assets/icons/git-branch-white.svg" alt="Github" />
-					<h2>Versionamento</h2>
+					<img src="./assets/icons/build-black.svg" alt="AI & Innovation" />
+					<h2>Engenharia de IA (GenAI)</h2>
 					<p>
-						Versionamento eficiente, estável e escalável de projetos. Uso do Git
-						para garantir histórico completo e fluxo de trabalho colaborativo.
+						Criação de soluções inovadoras integrando APIs de LLMs (OpenAI) e
+						automação de fluxos inteligentes para personalizar experiências.
 					</p>
 				</div>
+
 				<div className="skill">
-					<img src="./assets/icons/game-controller-white.svg" alt="Github" />
-					<h2>Gamificação</h2>
+					<img src="./assets/icons/cloudy-black.svg" alt="DevOps" />
+					<h2>DevOps & Cloud</h2>
 					<p>
-						Projetos interativos que combinam diversão e aprendizado para
-						proporcionar resultados efetivos.
+						Cultura de entrega contínua com CI/CD, Docker e AWS. Garantia de
+						deploys automatizados, ambientes estáveis e seguros.
 					</p>
 				</div>
+
 				<div className="skill">
-					<img src="./assets/icons/people-white.svg" alt="Github" />
-					<h2>UX & Gestão ágil</h2>
+					<img src="./assets/icons/people-black.svg" alt="Agile" />
+					<h2>Agilidade & Liderança</h2>
 					<p>
-						Soluções centradas no usuário, combinando design intuitivo e
-						metodologias ágeis para entregas eficientes e experiências
-						excepcionais.
+						Atuação em times ágeis multidisciplinares, alinhando visão técnica e
+						de produto para entregas de alto impacto.
 					</p>
 				</div>
 			</div>
-			<SectionLabel label="PONTOS FORTES" color="white" />
+			<SectionLabel label="Skills" color="black" />
 		</Container>
 	);
 };
