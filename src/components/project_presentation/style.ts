@@ -10,6 +10,10 @@ export const Container = styled("div", {
 	".banner-section": {
 		width: "40dvw",
 		borderRadius: "4px",
+
+		"@bp1": {
+			display: "none",
+		},
 	},
 
 	".banner-image": {
@@ -58,10 +62,18 @@ export const Container = styled("div", {
 
 		h1: {
 			fontSize: "1.5rem",
+
+			"@bp1": {
+				fontSize: "1.2rem",
+			},
 		},
 
 		p: {
 			margin: "16px 0 24px",
+
+			"@bp1": {
+				fontSize: ".9rem",
+			},
 		},
 
 		a: {
@@ -75,6 +87,10 @@ export const Container = styled("div", {
 		"a:hover": {
 			opacity: "1",
 		},
+
+		"@bp1": {
+			width: "calc(100% - 48px)",
+		},
 	},
 
 	variants: {
@@ -84,6 +100,10 @@ export const Container = styled("div", {
 				".banner-section": {
 					display: "flex",
 					justifyContent: "flex-end",
+
+					"@bp1": {
+						display: "none",
+					},
 				},
 
 				".banner-image": {

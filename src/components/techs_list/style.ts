@@ -12,5 +12,9 @@ export const Container = styled("div", {
 		padding: "4px 8px",
 		color: theme.colors.white,
 		backgroundColor: theme.colors.black,
+
+		"@bp1": {
+			fontSize: ".7rem",
+		},
 	},
 });

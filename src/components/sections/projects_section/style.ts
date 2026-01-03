@@ -13,6 +13,10 @@ export const Container = styled("section", {
 	alignItems: "center",
 	gap: "32px",
 
+	"@bp1": {
+		padding: "8px 24px",
+	},
+
 	"& .title-section, & .all-projects-text a": {
 		textTransform: "uppercase",
 		fontWeight: "800",
