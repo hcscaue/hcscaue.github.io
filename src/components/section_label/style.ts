@@ -14,6 +14,10 @@ export const Container = styled("p", {
 	writingMode: "vertical-lr",
 	textTransform: "uppercase",
 
+	"@bp1": {
+		display: "none",
+	},
+
 	variants: {
 		color: {
 			white: {

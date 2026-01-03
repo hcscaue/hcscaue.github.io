@@ -11,11 +11,21 @@ export const Container = styled("section", {
 	width: "100%",
 	height: "100dvh",
 
+	"@bp1": {
+		padding: "0px 24px",
+	},
+
 	"& > .about-text-group": {
 		width: "50%",
 		minWidth: "560px",
 		maxWidth: "720px",
 		textAlign: "left",
+
+		"@bp1": {
+			width: "100%",
+			minWidth: "0px",
+			maxWidth: "calc(100dvw - 48px)",
+		},
 	},
 
 	"& > .about-text-group > h1": {
@@ -26,6 +36,10 @@ export const Container = styled("section", {
 
 		textTransform: "uppercase",
 		color: "var(--gray-dark)",
+
+		"@bp1": {
+			fontSize: "1.2rem",
+		},
 	},
 
 	"& > .about-text-group span": {
@@ -39,5 +53,9 @@ export const Container = styled("section", {
 		textAlign: "justify",
 
 		color: "var(--gray-medium-dark)",
+
+		"@bp1": {
+			fontSize: ".7rem",
+		},
 	},
 });

@@ -1,5 +1,4 @@
-import { styled } from "@stitches/react";
-import { theme } from "../../../global/theme";
+import { styled, theme } from "../../../global/theme";
 
 export const Container = styled("footer", {
 	backgroundColor: theme.colors.black,
@@ -23,11 +22,24 @@ export const Container = styled("footer", {
 
 		div: {
 			width: "30%",
+
+			"@bp1": {
+				width: "calc(100% - 48px)",
+			},
+		},
+
+		"@bp1": {
+			flexDirection: "column",
+			gap: "8px",
 		},
 	},
 
 	"& .cta-group-image": {
 		width: "30%",
+
+		"@bp1": {
+			width: "80%",
+		},
 	},
 
 	"& .cta-group-text": {
@@ -42,6 +54,10 @@ export const Container = styled("footer", {
 		"& span": {
 			color: "goldenrod",
 		},
+
+		"@bp1": {
+			fontSize: "1.5rem",
+		},
 	},
 
 	"& .cta-button": {
@@ -52,13 +68,13 @@ export const Container = styled("footer", {
 		fontWeight: "800",
 		textTransform: "uppercase",
 		textDecoration: "none",
-	
+
 		padding: "0px 8px",
 
 		cursor: "pointer",
 
 		"&:hover": {
-			opacity: ".8"
-		}
+			opacity: ".8",
+		},
 	},
 });

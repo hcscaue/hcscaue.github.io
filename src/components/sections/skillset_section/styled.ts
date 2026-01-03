@@ -1,9 +1,8 @@
-import { styled } from "@stitches/react";
-import { theme } from "../../../global/theme";
+import { styled, theme } from "../../../global/theme";
 
 export const Container = styled("section", {
 	height: "100%",
-width: "100%",
+	width: "100%",
 
 	display: "flex",
 	backgroundColor: theme.colors.white,
@@ -14,6 +13,10 @@ width: "100%",
 	justifyContent: "center",
 	alignItems: "center",
 
+	"@bp1": {
+		padding: "16px 24px",
+	},
+
 	"& #group-skillset": {
 		display: "grid",
 		gap: "32px",
@@ -21,6 +24,10 @@ width: "100%",
 
 		justifyContent: "center",
 		alignItems: "start",
+
+		"@bp1": {
+			gap: "16px",
+		},
 	},
 
 	"& #group-skillset .skill": {
@@ -32,6 +39,10 @@ width: "100%",
 	"& #group-skillset .skill img": {
 		width: "10%",
 		maxWidth: "48px",
+
+		"@bp1": {
+			width: "20%"
+		}
 	},
 
 	"& #group-skillset .skill h2": {
@@ -39,6 +50,10 @@ width: "100%",
 
 		margin: "8px 0",
 		textTransform: "uppercase",
+
+		"@bp1": {
+			fontSize: ".8rem",
+		},
 	},
 
 	"& #group-skillset .skill p": {
@@ -46,5 +61,9 @@ width: "100%",
 
 		opacity: "0.8",
 		textAlign: "center",
+
+		"@bp1": {
+			fontSize: ".7rem",
+		},
 	},
 });

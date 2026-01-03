@@ -30,16 +30,29 @@ export const Container = styled("section", {
 		fontSize: "1rem",
 		fontWeight: 700,
 		opacity: 0.6,
+
+		"@bp1": {
+			marginBottom: "8px",
+			fontSize: ".8rem",
+		},
 	},
 
 	"& > .banner-text > h1": {
 		fontSize: "2.5rem",
 		fontWeight: 700,
 		lineHeight: 1.1,
+
+		"@bp1": {
+			fontSize: "2rem",
+		},
 	},
 
 	"& > .banner-text > h1 > span": {
 		fontSize: "3.5rem",
 		color: "goldenrod",
+
+		"@bp1": {
+			fontSize: "2rem",
+		},
 	},
 });

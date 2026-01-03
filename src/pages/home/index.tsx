@@ -19,9 +19,9 @@ const HomePage = () => {
 	const sections = [
 		<BannerSection key="banner" />,
 		<AboutSection key="about" />,
-		<ProjectSection key="p1" project={projectsData[0]} />,
-		<ProjectSection key="p2" project={projectsData[1]} align={"right"} />,
-		<ProjectSection key="p3" project={projectsData[2]} />,
+		// <ProjectSection key="p1" project={projectsData[0]} />,
+		// <ProjectSection key="p2" project={projectsData[1]} align={"right"} />,
+		// <ProjectSection key="p3" project={projectsData[2]} />,
 		<SkillsetSection key="skills" />,
 		<FooterPortfolioSection key="footer" />,
 	];
