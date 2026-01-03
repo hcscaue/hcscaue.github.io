@@ -9,7 +9,7 @@ export const MainContainer = styled("div", {
 
 export const SliderWrapper = styled("div", {
     width: "100%",
-    height: "100%", 
+    height: "100dvh", 
     transition: "transform 1s cubic-bezier(0.645, 0.045, 0.355, 1.000)",
 });
 

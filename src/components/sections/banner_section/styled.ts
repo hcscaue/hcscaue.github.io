@@ -20,6 +20,7 @@ export const Container = styled("section", {
 		textTransform: "uppercase",
 
 		"@bp1": {
+			width: "calc(100% - 48px)",
 			top: "80%",
 		},
 	},
