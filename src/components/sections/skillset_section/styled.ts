@@ -1,12 +1,12 @@
 import { styled } from "@stitches/react";
-import { defaultTheme } from "../../../global/theme";
+import { theme } from "../../../global/theme";
 
 export const Container = styled("section", {
 	height: "100%",
 width: "100%",
 
 	display: "flex",
-	backgroundColor: defaultTheme.colors.white,
+	backgroundColor: theme.colors.white,
 
 	padding: "64px 88px",
 	flexDirection: "column",
@@ -24,7 +24,7 @@ width: "100%",
 	},
 
 	"& #group-skillset .skill": {
-		color: defaultTheme.colors.black,
+		color: theme.colors.black,
 		maxWidth: "480px",
 		textAlign: "center",
 	},

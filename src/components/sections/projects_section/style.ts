@@ -1,10 +1,9 @@
-import { styled } from "@stitches/react";
-import { defaultTheme } from "../../../global/theme";
+import { styled, theme } from "../../../global/theme";
 
 export const Container = styled("section", {
 	width: "100%",
 	height: "100%",
-	backgroundColor: defaultTheme.colors.white,
+	backgroundColor: theme.colors.white,
 
 	display: "flex",
 	flexDirection: "column",
@@ -18,7 +17,7 @@ export const Container = styled("section", {
 		textTransform: "uppercase",
 		fontWeight: "800",
 		fontSize: "1.6rem",
-		color: defaultTheme.colors.black,
+		color: theme.colors.black,
 	},
 
 	variants: {

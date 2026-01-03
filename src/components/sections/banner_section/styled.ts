@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import { styled } from "../../../global/theme";
 
 export const Container = styled("section", {
 	width: "100%",
@@ -18,6 +18,10 @@ export const Container = styled("section", {
 		width: "70%",
 		transform: "translate(-50%, -50%)",
 		textTransform: "uppercase",
+
+		"@bp1": {
+			top: "80%",
+		},
 	},
 
 	"& > .banner-text > h3": {

@@ -1,5 +1,5 @@
-import { styled } from "@stitches/react";
-import { defaultTheme } from "../../global/theme";
+import { styled } from "../../global/theme";
+import { theme } from "../../global/theme";
 
 export const Container = styled("div", {
 	width: "fit-content",
@@ -11,7 +11,7 @@ export const Container = styled("div", {
 		a: {
 			textDecoration: "none",
 			opacity: "0.8",
-			transition: defaultTheme.transitions.default,
+			transition: theme.transitions.default,
 		},
 
 		"a:hover": {
@@ -26,14 +26,14 @@ export const Container = styled("div", {
 			opacity: "0.8",
 			aspectRatio: "1/1",
 			width: "1em",
-			transition: defaultTheme.transitions.default,
+			transition: theme.transitions.default,
 		},
 	},
 
 	"& .underline": {
 		width: "0",
 		height: ".3em",
-		transition: defaultTheme.transitions.default,
+		transition: theme.transitions.default,
 	},
 
 	":hover + .underline": {

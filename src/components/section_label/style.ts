@@ -1,5 +1,5 @@
-import { styled } from "@stitches/react";
-import { defaultTheme } from "../../global/theme";
+import { styled } from "../../global/theme";
+import { theme } from "../../global/theme";
 
 export const Container = styled("p", {
 	position: "absolute",
@@ -17,10 +17,10 @@ export const Container = styled("p", {
 	variants: {
 		color: {
 			white: {
-				color: defaultTheme.colors.white,
+				color: theme.colors.white,
 			},
 			black: {
-				color: defaultTheme.colors.black,
+				color: theme.colors.black,
 			},
 		},
 	},

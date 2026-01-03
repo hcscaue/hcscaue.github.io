@@ -1,5 +1,5 @@
-import { styled } from "@stitches/react";
-import { defaultTheme } from "../../global/theme.ts";
+import { styled } from "../../global/theme";
+import { theme } from "../../global/theme.ts";
 
 export const Container = styled("header", {
 	position: "fixed",
@@ -12,7 +12,7 @@ export const Container = styled("header", {
 	display: "flex",
 	justifyContent: "space-between",
 	alignItems: "center",
-	backgroundColor: defaultTheme.colors.black,
+	backgroundColor: theme.colors.black,
 
 	"& > .assign": {
 		width: "40px",

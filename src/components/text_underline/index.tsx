@@ -1,4 +1,4 @@
-import { defaultTheme } from "../../global/theme";
+import { theme } from "../../global/theme";
 import { Container } from "./style";
 
 type PropsType = {
@@ -14,7 +14,7 @@ type PropsType = {
 const TextUnderline = ({
 	className,
 	text,
-	colorUnderline = defaultTheme.colors.black.toString(),
+	colorUnderline = theme.colors.black.toString(),
 	tag = "p",
 	asLink = false,
 	href = "#",

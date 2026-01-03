@@ -1,5 +1,5 @@
-import { styled } from "@stitches/react";
-import { defaultTheme } from "../../global/theme";
+import { styled } from "../../global/theme";
+import { theme } from "../../global/theme";
 
 export const Container = styled("div", {
 	display: "flex",
@@ -8,7 +8,7 @@ export const Container = styled("div", {
 	gap: "16px",
 
 	".banner-section": {
-		width: "40vw",
+		width: "40dvw",
 		borderRadius: "4px",
 	},
 
@@ -22,7 +22,7 @@ export const Container = styled("div", {
 
 	".banner-previews": {
 		width: "100%",
-		backgroundColor: defaultTheme.colors.white,
+		backgroundColor: theme.colors.white,
 		boxShadow: "0px 0px 12px 0px rgba(0, 0, 0, 0.25)",
 
 		marginTop: "8px",
@@ -49,8 +49,8 @@ export const Container = styled("div", {
 	},
 
 	".project-texts": {
-		width: "30vw",
-		color: defaultTheme.colors.black,
+		width: "30dvw",
+		color: theme.colors.black,
 
 		"a, h1": {
 			textTransform: "uppercase",
@@ -65,11 +65,11 @@ export const Container = styled("div", {
 		},
 
 		a: {
-			color: defaultTheme.colors.black,
+			color: theme.colors.black,
 			opacity: "0.8",
 			fontWeight: "800",
 			textDecoration: "none",
-			transition: defaultTheme.transitions.default,
+			transition: theme.transitions.default,
 		},
 
 		"a:hover": {

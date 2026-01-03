@@ -1,5 +1,5 @@
-import { styled } from "@stitches/react";
-import { defaultTheme } from "../../global/theme";
+import { styled } from "../../global/theme";
+import { theme } from "../../global/theme";
 
 export const Container = styled("div", {
 	display: "flex",
@@ -10,7 +10,7 @@ export const Container = styled("div", {
 		fontWeight: "800",
 		textTransform: "uppercase",
 		padding: "4px 8px",
-		color: defaultTheme.colors.white,
-		backgroundColor: defaultTheme.colors.black,
+		color: theme.colors.white,
+		backgroundColor: theme.colors.black,
 	},
 });

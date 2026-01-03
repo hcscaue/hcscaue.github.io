@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import { styled } from "../../global/theme";
 
 export const Container = styled("a", {
 	width: "24px",

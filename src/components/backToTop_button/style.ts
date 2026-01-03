@@ -1,5 +1,5 @@
-import { styled } from "@stitches/react";
-import { defaultTheme } from "../../global/theme";
+import { styled } from "../../global/theme";
+import { theme } from "../../global/theme";
 
 export const Container = styled("button", {
 	position: "fixed",
@@ -17,7 +17,7 @@ export const Container = styled("button", {
 	opacity: "0",
 	cursor: "pointer",
 
-	transition: defaultTheme.transitions.default,
+	transition: theme.transitions.default,
 
 	img: {
 		rotate: "90deg",

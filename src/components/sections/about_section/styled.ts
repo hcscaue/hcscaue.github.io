@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import { styled } from "../../../global/theme";
 
 export const Container = styled("section", {
 	display: "flex",
@@ -9,7 +9,7 @@ export const Container = styled("section", {
 	gap: "32px",
 
 	width: "100%",
-	height: "100vh",
+	height: "100dvh",
 
 	"& > .about-text-group": {
 		width: "50%",

@@ -1,15 +1,15 @@
 import { styled } from "@stitches/react";
-import { defaultTheme } from "../../../global/theme";
+import { theme } from "../../../global/theme";
 
 export const Container = styled("footer", {
-	backgroundColor: defaultTheme.colors.black,
+	backgroundColor: theme.colors.black,
 
 	display: "flex",
 	flexDirection: "column",
 	justifyContent: "center",
 
 	width: "100%",
-	height: "100vh",
+	height: "100dvh",
 
 	"& .cta-group": {
 		width: "100%",
@@ -31,7 +31,7 @@ export const Container = styled("footer", {
 	},
 
 	"& .cta-group-text": {
-		color: defaultTheme.colors.white,
+		color: theme.colors.white,
 
 		fontSize: "1.9rem",
 		fontWeight: "800",
@@ -45,8 +45,8 @@ export const Container = styled("footer", {
 	},
 
 	"& .cta-button": {
-		color: defaultTheme.colors.black,
-		backgroundColor: defaultTheme.colors.white,
+		color: theme.colors.black,
+		backgroundColor: theme.colors.white,
 
 		fontSize: "1.4rem",
 		fontWeight: "800",
