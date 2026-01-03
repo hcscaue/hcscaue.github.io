@@ -1,4 +1,4 @@
-import { styled } from "../../global/theme";
+import { styled, theme } from "../../global/theme";
 
 export const MainContainer = styled("div", {
     position: "fixed", 
@@ -12,7 +12,7 @@ export const MainContainer = styled("div", {
     margin: 0,
     padding: 0,
     
-    backgroundColor: "$black", 
+    backgroundColor: theme.colors.white, 
 });
 
 export const SliderWrapper = styled("div", {
