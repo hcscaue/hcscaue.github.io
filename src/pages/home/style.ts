@@ -1,20 +1,28 @@
 import { styled } from "../../global/theme";
 
 export const MainContainer = styled("div", {
+    position: "fixed", 
+    top: 0,
+    left: 0,
+    
     width: "100%",
-    // paddingTop: "80px",
+    height: "100dvh",
+    
     overflow: "hidden", 
-    position: "relative",
+    margin: 0,
+    padding: 0,
+    
+    backgroundColor: "$black", 
 });
 
 export const SliderWrapper = styled("div", {
     width: "100%",
-    height: "100dvh", 
+    height: "100%",
     transition: "transform 1s cubic-bezier(0.645, 0.045, 0.355, 1.000)",
 });
 
 export const Section = styled("div", {
-    height: "100dvh",
+    height: "100%", 
     width: "100%",
     
     boxSizing: "border-box",

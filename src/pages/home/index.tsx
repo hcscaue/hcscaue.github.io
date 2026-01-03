@@ -93,7 +93,7 @@ const HomePage = () => {
 			onTouchMove={onTouchMove}
 			onTouchEnd={onTouchEnd}>
 			<SliderWrapper
-				style={{ transform: `translateY(-${activeIndex * 100}vh)` }}>
+				style={{ transform: `translateY(-${activeIndex * 100}%)` }}>
 				{sections.map((Component, index) => (
 					<Section key={index}>{Component}</Section>
 				))}
