@@ -11,13 +11,7 @@ type ProjectSectionProps = {
 const ProjectSection = ({ project, align = "left" }: ProjectSectionProps) => {
 	return (
 		<Container align={align}>
-			<ProjectPresentation
-				title={project.title}
-				description={project.description}
-				techs={project.techs}
-				banner={project.banner}
-				url={project.url}
-			/>
+			<ProjectPresentation project={project} />
 			<SectionLabel label={`${project.title}`} color="black" />
 		</Container>
 	);

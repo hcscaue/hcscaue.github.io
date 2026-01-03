@@ -23,9 +23,10 @@ const AboutSection = () => {
 					que impactam milhares de usuários, atuando desde a concepção da
 					arquitetura até o deploy automatizado. Atualmente focado em Engenharia
 					de IA (GenAI), busco aplicar conhecimentos em integração de APIs de
-					LLMs e automação para criar soluções inovadoras na Accenture. Possuo
-					vivência sólida em metodologias ágeis (Scrum), colaboração em times
-					multidisciplinares e boas práticas de engenharia de software.
+					LLMs e automação para criar soluções inovadoras em grandes desafios
+					corporativos. Possuo vivência sólida em metodologias ágeis (Scrum),
+					colaboração em times multidisciplinares e boas práticas de engenharia
+					de software.
 				</p>
 			</div>
 			<SectionLabel label="SOBRE MIM" color="black" />
