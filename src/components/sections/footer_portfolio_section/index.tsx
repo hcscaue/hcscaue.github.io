@@ -15,7 +15,7 @@ const FooterPortfolioSection = () => {
 						Gostou? Entre em <span>contato comigo</span> e vamos conversar!
 					</p>
 					<a
-						href="/profile.pdf"
+						href="/Currículo - Cauê Henrique.pdf"
 						download="Currículo - Cauê Henrique.pdf"
 						className="cta-button">
 						Baixar Currículo
